@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/gradient4">
+
+    <TextView
+        android:layout_width="540dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Turn Things Off When You&apos;re Done"
+        android:id="@+id/textView"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#262626" />
+
+    <TextView
+        android:layout_width="540dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="A desktop computer running 24/7 can burn through $150 worth of electricity over five years, which is three times more than if it is put to sleep when unused. Make &quot;switch it off when done&quot; a smart household habit for all lights and devices, form computers to game consoles and TVs."
+        android:id="@+id/textView2"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="80dp"
+        android:textColor="#757575" />
+</RelativeLayout>

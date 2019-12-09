@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="-15dp"
+    android:paddingLeft="-15dp"
+    android:paddingRight="-15dp"
+    android:paddingTop="-15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zyy19.myapplication4.Main2Activity"
+    tools:showIn="@layout/activity_main2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/gradient3">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/EleBill"
+                android:id="@+id/textView3"
+                android:textSize="40sp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="#6F92B0"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/spinner"
+                android:entries="@array/items"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="127dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/$367.95"
+                android:id="@+id/textview4"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="100sp"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-20dp"
+        android:background="#325a7d"
+        android:id="@+id/linearLayout6">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="65dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="@string/april_15_5_8"
+                android:id="@+id/text1"
+                android:textSize="38sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
